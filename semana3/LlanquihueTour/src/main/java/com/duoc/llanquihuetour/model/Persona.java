@@ -35,7 +35,7 @@ public class Persona {
 			this.nombre    = nombre;
 			this.email     = email;
 			this.telefono  = telefono;
-			this.rut       = new Rut("1.000.000-9");
+			this.rut       = new Rut("1000000-9");
 			this.direccion = "";
 			this.ciudad    = "";
 		} catch (RutInvalidoException e) {
