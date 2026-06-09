@@ -21,7 +21,7 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 ```plaintext
 📁 src/
 ├── app/          # Clase principal con el método main
-├── model/        # Clases de dominio (Persona, Cliente, Empleado, Producto, etc.)
+├── model/        # Clases de dominio (Rut, Persona, Cliente, Guia, Proveedor, etc.)
 └── excepciones/  # excepciones a medida para proyecto
 ````
 
@@ -33,15 +33,15 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 
 1. Clona el repositorio desde GitHub:
 
-```bash
-git clone https://github.com/orlando-ubilla-duoc/POO.git
-```
+    ```bash
+        git clone https://github.com/orlando-ubilla-duoc/POO.git
+    ```
 
-2. Abre el proyecto en IntelliJ IDEA.
+2. Ejecuta el archivo `Main.java` desde el paquete `app`.
 
-3. Verifica que los archivos `.txt` estén correctamente ubicados.
-
-4. Ejecuta el archivo `Main.java` desde el paquete `app`.
+    ```bash
+        java Main.java
+    ```
 
 
 ---
