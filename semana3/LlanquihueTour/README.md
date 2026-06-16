@@ -47,6 +47,7 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 ---
 
 **Repositorio GitHub:** \[https://github.com/orlando-ubilla-duoc/POO/tree/master/semana3/LlanquihueTour]
+
 **Fecha de entrega:** \[08/06/2026]
 
 ---
