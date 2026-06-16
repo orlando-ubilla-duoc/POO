@@ -44,7 +44,15 @@ Los almacene en un ArrayList
 
 	public void mostrarTours(){
 		for(Tour tour : tours){
-			System.out.println("Nombre: " + tour.getNombreTour() + ", Ubicación: " + tour.getUbicacion() + ", Precio: $" + tour.getPrecio());
+			System.out.println("Nombre tour: " + tour.getNombreTour() + ", Ubicación: " + tour.getUbicacion() + ", Precio: $" + tour.getPrecio());
+		}
+	}
+
+	public void mostrarToursFiltrados(double precioMinimo){
+		for(Tour tour : tours){
+			if(tour.getPrecio() >= precioMinimo){
+				System.out.println("Nombre tour: " + tour.getNombreTour() + ", Ubicación: " + tour.getUbicacion() + ", Precio: $" + tour.getPrecio());
+			}
 		}
 	}
 

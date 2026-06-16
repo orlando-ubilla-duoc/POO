@@ -16,8 +16,9 @@ public class Main {
 		gestor.mostrarTours();
 
 		// Mostrar filtrados
-		System.out.println("\nListado filtrado:");
+		System.out.println("\nListado filtrado: tours con valor mayor a 50 mil pesos");
 		System.out.println("==========================");
+		gestor.mostrarToursFiltrados(50000);
 
 	}
 
