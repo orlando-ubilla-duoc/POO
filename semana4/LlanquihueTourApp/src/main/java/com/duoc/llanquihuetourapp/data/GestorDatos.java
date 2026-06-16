@@ -36,7 +36,7 @@ Los almacene en un ArrayList
 				}
 			}
 		} catch (IOException e) {
-			//JOptionPane.showMessageDialog( null, "File-read error: "+e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+			System.out.println("Error al leer el archivo: " + e.getMessage());
 		} catch(Exception e){
 			System.out.println("Error: " + e.getMessage());
 		}
