@@ -38,8 +38,13 @@ resources/        # Archivo fuente de datos
     ```bash
         git clone https://github.com/orlando-ubilla-duoc/POO.git
     ```
+2. ingresar a directorio correspondiente a actividad de la semana 4
 
-2. Ejecuta el archivo `Main.java` desde el paquete `app`.
+    ```bash
+        cd semana4/LlanquihueTourApp/
+    ```
+
+3. Desde carpeta src, ubicarse en directorio main/java/com/duoc/llanquihuetourapp/ui, y ejecutar el archivo `Main.java` de la siguiente forma.
 
     ```bash
         java Main.java

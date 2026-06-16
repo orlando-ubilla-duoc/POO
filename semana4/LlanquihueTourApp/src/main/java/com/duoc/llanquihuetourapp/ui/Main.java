@@ -16,7 +16,7 @@ public class Main {
 		gestor.mostrarTours();
 
 		// Mostrar filtrados
-		System.out.println("Listado filtrado:");
+		System.out.println("\nListado filtrado:");
 		System.out.println("==========================");
 
 	}
