@@ -1,9 +1,7 @@
 package com.duoc.llanquihuetourapp.data;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -44,50 +42,10 @@ Los almacene en un ArrayList
 		}
 	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-	private void grabarArchivo(String registro){
-
-		String nombreArchivo = "prestamos_libros.txt";
-
-		try (BufferedWriter writer = new BufferedWriter(new FileWriter(nombreArchivo, true))){
-			writer.write(registro);
-			writer.newLine();
-		} catch (IOException e) {
-			//JOptionPane.showMessageDialog( null, "Ocurrio un error al guardar en archivo: "+e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+	public void mostrarTours(){
+		for(Tour tour : tours){
+			System.out.println("Nombre: " + tour.getNombreTour() + ", Ubicación: " + tour.getUbicacion() + ", Precio: $" + tour.getPrecio());
 		}
 	}
-	private List<String> leerArchivo(){
-
-		List<String> prestamos = new ArrayList<>();
-		String nombreArchivo = "prestamos_libros.txt";
-
-		try( BufferedReader reader = new BufferedReader(new FileReader(nombreArchivo)) ){
-			String linea;
-			while( (linea = reader.readLine())!=null ){
-				prestamos.add(linea);
-			}
-			if(prestamos.isEmpty()){
-				//JOptionPane.showMessageDialog(null, "No se encontraron registros guardados en el archivo.", "Información", JOptionPane.INFORMATION_MESSAGE);
-			}
-		} catch (IOException e) {
-			//JOptionPane.showMessageDialog( null, "File-read error: "+e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
-		} catch(Exception e){
-			//JOptionPane.showMessageDialog( null, "Exception error: "+e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
-		}
-
-		return prestamos;
-	}
-
 
 }
