@@ -1,4 +1,4 @@
-# POO
+# Desarrollo Orientado a Objetos I
 
 ---
 
