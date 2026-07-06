@@ -1,5 +1,5 @@
 ![Duoc UC](https://www.duoc.cl/wp-content/uploads/2022/09/logo-0.png)
-# 🧠 Evaluación Formativa 4 – Desarrollo Orientado a Objetos I
+# 🧠 Evaluación Formativa 5 – Desarrollo Orientado a Objetos I
 
 ## 👤 Autor del proyecto
 - **Nombre completo:** Orlando Ubilla Orellana
@@ -12,7 +12,9 @@
 ## 📘 Descripción general del sistema
 Este proyecto corresponde a la Evaluación Formativa 3 *Construyendo una lista de objetos desde archivo*. Se trata de un sistema orientado a objetos desarrollado en Java, cuyo objetivo es modelar y gestionar entidades representativas de un dominio real, aplicando los principios de encapsulamiento, composición, herencia, polimorfismo e interfaces.
 
-El objetivo de la semana 6 es realizar la implementación de una clase base con atributos comunes y subclases que extiendan su funcionalidad, aplicando conceptos como atributos heredados, sobreescritura de métodos y composición entre clases.
+El objetivo de la semana 7 es realizar una actividad donde se debe extender una jerarquía de
+clases previamente diseñada, incorporando el uso de colecciones, la sobrescritura de
+métodos y la diferenciación de comportamientos mediante referencias a la superclase.
 
 ---
 
@@ -36,10 +38,10 @@ El objetivo de la semana 6 es realizar la implementación de una clase base con 
     ```bash
         git clone https://github.com/orlando-ubilla-duoc/POO.git
     ```
-2. ingresar a directorio correspondiente a actividad de la semana 6
+2. ingresar a directorio correspondiente a actividad de la semana 7
 
     ```bash
-        cd semana6/LlanquihueTourApp/
+        cd semana7/LlanquihueTourApp/
     ```
 
 3. Desde carpeta src, ubicarse en directorio main/java/com/duoc/llanquihuetourapp/ui, y ejecutar el archivo `Main.java` de la siguiente forma.
@@ -51,8 +53,8 @@ El objetivo de la semana 6 es realizar la implementación de una clase base con 
 
 ---
 
-**Repositorio GitHub:** \[https://github.com/orlando-ubilla-duoc/POO/tree/master/semana6/LlanquihueTourApp]
+**Repositorio GitHub:** \[https://github.com/orlando-ubilla-duoc/POO/tree/master/semana7/LlanquihueTourApp]
 
-**Fecha de entrega:** \[29/06/2026]
+**Fecha de entrega:** \[06/07/2026]
 
 ---
