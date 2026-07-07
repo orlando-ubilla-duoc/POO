@@ -1,9 +1,6 @@
 package com.duoc.llanquihuetourapp.ui;
 
-import java.util.List;
-
 import com.duoc.llanquihuetourapp.data.GestorServicios;
-import com.duoc.llanquihuetourapp.model.ServicioTuristico;
 
 
 public class Main {
@@ -19,13 +16,7 @@ public class Main {
 		gestor.crearRutaGastronomica("Ruta Gastronómica", 4, "Puerto Varas", 90000, 2);
 		gestor.crearRutaGastronomica("Ruta de Sabores", 5, "Puerto Montt", 110000, 3);
 
-		List<ServicioTuristico> misServicios = gestor.getServicios();
-
-		// Loop para mostrar servicios
-		for( ServicioTuristico servicio : misServicios ){
-			servicio.mostrarInformacion();
-			System.out.println(" "); // linea en blanco para separar servicios
-		}
+		gestor.muestraServicios();
 
 	}
 

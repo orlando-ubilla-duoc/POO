@@ -24,7 +24,7 @@ métodos y la diferenciación de comportamientos mediante referencias a la super
 📁 src/
 ├── ui/           # Clase principal con el método main
 ├── model/        # Clases de dominio ( ServicioTuristico, RutaGastronomica, PaseoLacustre, ExcursionCultural)
-└── data/         # Clase manejadora de Objetos de subclases.
+└── data/         # Clase manejadora de Objetos de subclases, con manejo de listado interno.
 ````
 
 ---

@@ -47,4 +47,15 @@ public class GestorServicios {
 		return servicios;
 	}
 
+	public void muestraServicios() {
+
+		// Loop para mostrar servicios
+		for( ServicioTuristico servicio : servicios )
+		{
+			servicio.mostrarInformacion();
+			System.out.println(" "); // linea en blanco para separar servicios
+		}
+
+	}
+
 }
