@@ -52,6 +52,14 @@ public class ServicioTuristico {
 		this.precioServicio = precioServicio;
 	}
 
+	public void mostrarInformacion() {
+		System.out.println("=== INFORMACIÓN DEL SERVICIO TURÍSTICO ===");
+		System.out.println("Nombre del servicio: " + nombre);
+		System.out.println("Duración: " + duracionHoras + " horas");
+		System.out.println("Ciudad: " + ciudad);
+		System.out.println("Precio del servicio: $" + precioServicio);
+	}
+
 	@Override
 	public String toString() {
 		return "ServicioTuristico{" +

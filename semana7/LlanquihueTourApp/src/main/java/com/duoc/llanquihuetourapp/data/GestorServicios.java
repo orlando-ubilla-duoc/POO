@@ -1,37 +1,50 @@
 package com.duoc.llanquihuetourapp.data;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.duoc.llanquihuetourapp.model.ExcursionCultural;
 import com.duoc.llanquihuetourapp.model.PaseoLacustre;
 import com.duoc.llanquihuetourapp.model.RutaGastronomica;
+import com.duoc.llanquihuetourapp.model.ServicioTuristico;
 
 public class GestorServicios {
 
+	private List<ServicioTuristico> servicios;
+
 	public GestorServicios() {
-		// Constructor
+		this.servicios = new ArrayList<>();
 	}
 
-	public PaseoLacustre crearPaseoLacustre(String nombre,
+	public void crearPaseoLacustre(String nombre,
                                           String ciudad,
                                           double precioServicio,
                                           int duracionHoras,
                                           String tipoBarco ){
-		return new PaseoLacustre(nombre, ciudad, precioServicio, duracionHoras, tipoBarco);
+		PaseoLacustre serv = new PaseoLacustre(nombre, ciudad, precioServicio, duracionHoras, tipoBarco);
+		this.servicios.add(serv);
 	}
 
-	public ExcursionCultural crearExcursionCultural(String nombre,
+	public void crearExcursionCultural(String nombre,
                           int duracionHoras,
                           String ciudad,
                           double precioServicio,
                           String lugarHistorico ){
-		return new ExcursionCultural(nombre, duracionHoras, ciudad, precioServicio, lugarHistorico);
+		ExcursionCultural serv = new ExcursionCultural(nombre, duracionHoras, ciudad, precioServicio, lugarHistorico);
+		this.servicios.add(serv);
 	}
 
-	public RutaGastronomica crearRutaGastronomica(String nombre,
+	public void crearRutaGastronomica(String nombre,
 						  int duracionHoras,
 						  String ciudad,
 						  double precioServicio,
 						  int numeroDeParadas ){
-		return new RutaGastronomica(nombre, duracionHoras, ciudad, precioServicio, numeroDeParadas);
+		RutaGastronomica serv = new RutaGastronomica(nombre, duracionHoras, ciudad, precioServicio, numeroDeParadas);
+		this.servicios.add(serv);
+	}
+
+	public List<ServicioTuristico> getServicios() {
+		return servicios;
 	}
 
 }

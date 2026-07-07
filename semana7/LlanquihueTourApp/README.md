@@ -10,7 +10,7 @@
 ---
 
 ## 📘 Descripción general del sistema
-Este proyecto corresponde a la Evaluación Formativa 3 *Construyendo una lista de objetos desde archivo*. Se trata de un sistema orientado a objetos desarrollado en Java, cuyo objetivo es modelar y gestionar entidades representativas de un dominio real, aplicando los principios de encapsulamiento, composición, herencia, polimorfismo e interfaces.
+Este proyecto corresponde a la Evaluación Formativa 5 *"Aplicación de sobreescritura y polimorfismo en jerarquías"*. Se trata de un sistema orientado a objetos desarrollado en Java, cuyo objetivo es modelar y gestionar entidades representativas de un dominio real, aplicando los principios de encapsulamiento, composición, herencia, polimorfismo e interfaces.
 
 El objetivo de la semana 7 es realizar una actividad donde se debe extender una jerarquía de
 clases previamente diseñada, incorporando el uso de colecciones, la sobrescritura de
